@@ -28,10 +28,6 @@
 
 如有需要，修改main.typ中各个配置
 
-#### 3.效果
-
-可查看项目下[test.pdf]('test.pdf') 和 [带答案版test.pdf]('test-ans.pdf')
-
 ```typst
 #set text(font: "霞鶩文楷") // 使用字体
 #text(size: 26pt)[#align(center)[试题]]
@@ -39,6 +35,10 @@
 #let err = () // 如果不为空，打印指定题号错题;如果为空，打印全部题目
 #let data = csv("./test.csv") // 题目文件
 ```
+
+#### 3.效果
+
+可查看项目下[test.pdf](test.pdf) 和 [带答案版test-ans.pdf](test-ans.pdf)
 
 ### 致谢
 
